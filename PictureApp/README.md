@@ -1,9 +1,12 @@
 # StorySnap
 
 StorySnap is an AI-powered Expo mobile app that:
+
 - Converts photos into short stories with genre/length controls.
 - Generates images from text prompts with style/aspect ratio controls.
 - Saves user content in Supabase (Postgres + Storage).
+
+https://docs.google.com/spreadsheets/d/1cUC-s8jnU6zzkSQdEpjtBPy7X6XfIpTbmNtLl1Mo3hs/edit?usp=sharing
 
 ## Tech Stack
 
@@ -74,6 +77,7 @@ cp .env.example .env
 ```
 
 Set:
+
 - `EXPO_PUBLIC_SUPABASE_URL`
 - `EXPO_PUBLIC_SUPABASE_ANON_KEY`
 
